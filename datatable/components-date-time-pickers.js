@@ -242,8 +242,6 @@ var ComponentsDateTimePickers = function () {
 
 }();
 
-if (App.isAngularJsApp() === false) { 
     jQuery(document).ready(function() {    
         ComponentsDateTimePickers.init(); 
     });
-}
