@@ -526,8 +526,6 @@ var TableDatatablesManaged = function () {
 
 }();
 
-if (App.isAngularJsApp() === false) { 
     jQuery(document).ready(function() {
         TableDatatablesManaged.init();
     });
-}
